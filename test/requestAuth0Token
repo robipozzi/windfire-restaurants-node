@@ -1,0 +1,9 @@
+POST https://robipozzi.eu.auth0.com/oauth/token HTTP/1.1
+content-type: application/json
+
+{
+    "client_id":"t683fv8BXm3MIECDy6ZYjqnCFzBntrMu",
+    "client_secret":"xg1tosSRKl2NinhzArqcKAAX3D_CjrJpGIC0x1zlua70CN5bl5dae6wgPsADZMX2",
+    "audience":"windfire-restaurants",
+    "grant_type":"client_credentials"
+}
